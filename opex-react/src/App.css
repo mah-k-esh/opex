@@ -1,0 +1,78 @@
+.App{
+  margin: 10%;
+  position: relative;
+}
+
+svg text{
+  font-size: 10px;
+
+}
+
+#options .caption{
+  display: inline-block;  
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+  padding: 10px;
+  font-size: 10px;
+}
+
+
+.filter,
+.filter label,
+.filter div{
+  display: inline-block;
+  padding: 3px;
+  font-family: serif;
+}
+
+#options{
+  width: 80%;
+  background: #00000008;
+  margin-left: 10%;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.filter{
+  padding-right: 25px;
+}
+
+.filter div{
+  border: dotted 1px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.notification{
+  display: none;
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  margin-left: 10%;
+  background: #ffc0cb75;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.filter svg{
+  color: #2176b4;
+}
+
+#workspace{
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #00000008;
+  margin-bottom: 5%;
+  height: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
